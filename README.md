@@ -1,77 +1,54 @@
-PinNotes v1.0
-Provided by Jim
+========================================
+  SnipPin! v1.0
+  Provided by Jim
+  For Support, contact Jim
+========================================
 
-A lightweight, floating sticky notes app for Windows.
-Notes stay on top of other windows and persist across sessions.
-
-
-GETTING STARTED
----------------
-Double-click PinNotes.exe to launch. A yellow note appears on screen.
-Your notes are saved automatically as you type.
-Close and reopen the app — everything comes back exactly as you left it.
-
-
-HEADER CONTROLS (top bar)
--------------------------
-  +         Create a new note
-  Color dots   Switch between Yellow, Green, and Red themes
-  Pen icon     Pick a custom color via hex code (e.g. #3498DB)
-  Up/Down arrow   Toggle always-on-top (floats above all windows or normal)
-  !         About dialog
-  x         Close the note (saves for next launch)
+DESCRIPTION
+-----------
+SnipPin! is a lightweight screenshot capture tool for Windows.
+Capture any rectangular area of your screen and pin it as a
+floating window that stays on top of all other windows.
 
 
-FORMATTING TOOLBAR (below header)
----------------------------------
-  B         Bold              Ctrl+B
-  I         Italic            Ctrl+I
-  U         Underline         Ctrl+U
-  Bullet    Toggle bullet list on current line(s)
-  A A A     Highlight text in yellow, green, or red
-
-  Select text first, then click a button. If nothing is selected,
-  the word at the cursor is formatted.
-
-  Bullet auto-continuation: press Enter on a bulleted line to continue
-  the list. Press Enter on an empty bullet to stop.
-
-
-RIGHT-CLICK MENU
------------------
-  Cut / Copy / Paste
-  Bold / Italic / Underline / Bullet List
-  Highlight (Yellow, Green, Red, Remove)
-  Always on Top toggle
-  New Note
-  Color (preset themes + Custom Hex)
-  Close Note / Delete Note / Quit All
-  About PinNotes
+FEATURES
+--------
+- Select any rectangular area on screen to capture
+- Up to 10 screenshots displayed at the same time
+- Each screenshot stays on top of all other windows
+- Screenshots are freely resizable
+- Right-click a screenshot to Save As or Close
+- Save screenshots as PNG, JPEG, or BMP to any folder
+- "Close All" button to dismiss all screenshots at once
+- Press Escape during selection to cancel
+- Compact dark toolbar-style interface
+- Draggable toolbar - click and drag to reposition
+- Minimize to taskbar, no maximize button
 
 
-KEYBOARD SHORTCUTS
-------------------
-  Ctrl+B       Bold
-  Ctrl+I       Italic
-  Ctrl+U       Underline
-  Ctrl+N       New note
-  Ctrl+W       Close note (saves for next launch)
-  Ctrl+Q       Quit all notes
+HOW TO USE
+----------
+1. Launch SnipPin.exe from the SnipPin folder
+2. Click "Capture"
+3. Click and drag to select the area you want to capture
+4. Release the mouse button - the screenshot appears in a new window
+5. Resize the window by dragging its edges or corners
+6. Right-click on a screenshot:
+   - "Save As..." to save the image to any folder
+   - "Close" to dismiss it
+7. Drag the toolbar to reposition it on screen
 
 
-CLOSE vs DELETE
----------------
-  Close (x button, Ctrl+W)  — Saves the note. It reopens next launch.
-  Delete (right-click menu)  — Permanently removes the note.
-
-
-DATA STORAGE
+REQUIREMENTS
 ------------
-Notes are saved in sticky_notes_data.json next to PinNotes.exe.
-Content, formatting, highlights, position, size, color, and pin state
-are all preserved automatically.
+None. SnipPin.exe is a standalone application.
+No Python or other software installation is needed.
 
 
-SUPPORT
--------
-For support, contact Jim.
+FILES
+-----
+SnipPin\SnipPin.exe  - The application (run this)
+screenshot_tool.py   - Source code
+requirements.txt     - Python dependencies (for developers only)
+build.bat            - Build script to regenerate the application
+README.txt           - This file
